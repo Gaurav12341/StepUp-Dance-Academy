@@ -1,0 +1,12 @@
+
+
+.timetable{
+    height: 89vh;
+    background: url('TimeTableDance.png'),url('time3.jpeg');
+    background-size: contain,cover;
+    background-repeat: no-repeat;
+    background-position: 0,6vw;
+}
+
+
+

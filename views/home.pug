@@ -1,0 +1,54 @@
+extends base.pug
+block scripts 
+    script(src="index.js") 
+
+block style 
+    style 
+        include ../static/styles.css
+
+block content 
+    section#introSection
+      .headings
+        h1
+          | Welcome to StepUp Dance Academy
+        h4 Anybody Can dance
+      .cardbox
+        .heading2
+          h1 Our Missions
+        .cards
+          .card1
+            h3 Dance Perfection
+            .cardinnerbox
+              .card-img
+                img(src='card1new.png', alt='')
+              .cardcontent
+                p We will perfectionize the way you dance.
+          .card1
+            h3 Express
+            .cardinnerbox
+              .card-img
+                img(src='card2new.png', alt='', width='90px', height='120px')
+              .cardcontent
+                p Dance to Express not to Impress
+          .card1
+            h3 Dance the way You like 
+            .cardinnerbox
+              .card-img
+                img(src='card3new.png', alt='', width='90px', height='120px')
+              .cardcontent
+                p Choose your own style.
+          .card1
+            h3 Just Do it!
+            .cardinnerbox
+              .card-img
+                img(src='card1new.png', alt='', width='100px', height='120px')
+              .cardcontent
+                p Eat Sleep Dance Repeat.
+    section#sponsorSection
+      .heading3
+        h1 Sponsored By
+      .sponsorimage
+        img(src='Didnew.png', alt='')
+        img(src='sonynew.png', alt='')
+        img(src='star.png', alt='')
+    

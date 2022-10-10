@@ -1,0 +1,17 @@
+*{
+    overflow: hidden;
+}
+.about{
+    text-align: center;
+    height: 89vh;
+    background: url('knowus.jpg'),rgb(214, 255, 131);
+    background-repeat: no-repeat;
+    background-size:69vw,50vw;
+    
+    
+}
+
+.about p{
+    margin-top: 4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
