@@ -97,8 +97,8 @@ color: yellow;
 .headings h4{
     position: absolute;
     font-size: 25px;
-    right: 220px;
-    top: 179px;
+    right: 280px;
+    top: 199px;
     background: #89F7FE;
 background: linear-gradient(to right, #89F7FE 0%, #74acf9 38%, #dd77fc 100%);
 -webkit-background-clip: text;
